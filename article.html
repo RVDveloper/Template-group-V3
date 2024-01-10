@@ -1,0 +1,459 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SmartUpdates</title>
+
+    <!-- font awesome icons cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w==" crossorigin="anonymous" />
+
+    <!-- swiper slider css file -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/6.4.5/swiper-bundle.min.css" integrity="sha512-m3pAvNriL711NMlhkZHK6K4Tu2/RjtrzyjxZU8mlAbxxoDoURy27KajN1LGTLeEEPvaN12mKAgSCrYEwF9y0jA==" crossorigin="anonymous" />
+
+    <!-- custom style.css file -->
+    <link rel="stylesheet" href="style.css">
+
+    <style>
+        .article {
+            border: 1px solid #ccc;
+            padding: 20px;
+            margin-bottom: 20px;
+        }
+
+        #navigation {
+            display: flex;
+            justify-content: space-between;
+
+        
+        }
+        .post-tags {
+            display: flex;
+
+        }
+        .nav-link.custom {
+            color: rgb(233, 233, 233);
+            filter: drop-shadow(0 1px 2px #333);
+            color: transparent;
+            background-color: #ffffff;
+            background-image: linear-gradient(43deg, #4194d0 0%, #C850C0 50%, #FFCC70 100%);
+            border: #333;
+            justify-content: space-between;
+        }
+        #parte-dos .nav-link {
+            color: rgb(233, 233, 233);
+            filter:drop-shadow( 0 1px 2px #333);
+            background-clip: text;
+            color: transparent;
+            background-color: #ffffff;
+            background-image: linear-gradient(43deg, #4194d0 0%, #C850C0 50%, #FFCC70 100%);
+            font-size: 2rem;
+            border: #333;
+        }
+
+        #post .nav-link {
+            color: rgb(233, 233, 233);
+            filter:drop-shadow( 0 1px 2px #333);
+            background-clip: text;
+            color: transparent;
+            background-color: #ffffff;
+            background-image: linear-gradient(43deg, #4194d0 0%, #C850C0 50%, #FFCC70 100%);
+            font-size: 2rem;
+            border: #333;
+        }
+    </style>
+</head>
+<body>
+    
+    <!-- Header -->
+    <header id="header" class="shadow bg-light">
+        <nav class="container navbar">
+            <a href="#" class="nav-brand text-dark" onmouseover="mostrarBienvenida(this)" onmouseout="restaurarTexto(this)">
+                SmartUpdates
+            </a>
+
+                <!-- toggle button -->
+                <button class="toggle-button">
+                    <span><i class="fas fa-bars"></i></span>
+                </button>
+
+                <!-- collapse on toggle button click -->
+                <div class="collapse">
+                    <ul class="navbar-nav">
+                        <a href="./index.html" class="nav-link">Home</a>
+                        <a href="./categorias.html" class="nav-link">Categories</a>
+                        <a href="#" class="nav-link">Articles</a>
+                        <a href="./recomendaciones.html" class="nav-link">Recommendations</a>
+                        <a href="./about-us.html" class="nav-link">About</a>
+                    </ul>
+                </div>
+           </nav>
+       </header>
+    <!-- .Header -->
+
+    <!-- Main Site -->
+       <main id="site-main">
+
+            <!-- Post Content -->
+                <section class="container">
+                    <article id="post">
+                        <!-- article heading -->
+                        <div class="headings text-center">
+                            <div class="category">
+                                <a href="./categorias.html" class="nav-link">Versus</a>
+                            </div>
+
+                            <div class="title">
+                                <h2 class="text-title text-dark display-1">iPhone 15 Pro Max vs Samsung Galaxy S23: ¿cuál es el mejor smartphone de gama alta?</h2>
+                            </div>
+
+                            <div class="meta">
+                                <a href="./about-us.html" class="link display-2 text-secondary px-1">
+                                    <i class="fas fa-user text-primary"></i> Rafael Valerio
+                                </a>
+                                <a href="#" class="link display-2 text-secondary px-1">
+                                    <i class="fas fa-clock text-primary"></i>  Clock Wed 02, 2024
+                                </a>
+                                <a href="#" class="link display-2 text-secondary px-1">
+                                    <i class="fas fa-comments text-primary"></i> 3
+                                </a>
+                            </div>
+
+                        </div>
+
+                        <!-- thumbnail  -->
+                        <div class="thumbnail mt-3">
+                            <img src="./assets/gallery/img8.jpg" class="thumbnail" alt="" style="border-radius: 10px !important; box-shadow: 0 4px 8px rgba(0,0,0,0.3) !important; ">
+                        </div>
+
+                        <!-- content -->
+                        <div class="content text-dark display-2 secondary-title mt-3">
+                            <p>El iPhone 15 Pro Max y el Samsung Galaxy S23 son smartphones avanzados con diseños premium y características destacadas. En términos de diseño, el iPhone destaca por su construcción en titanio, resistencia al agua, y una pantalla con Dynamic Island. El Galaxy S23 ofrece un diseño atractivo con una pantalla sin muescas ni agujeros.
+
+                                En cuanto al rendimiento, el iPhone 15 Pro Max cuenta con el chip A17 Bionic y iOS 17, mientras que el Galaxy S23 incorpora el Snapdragon 8 Gen 2 y Android 13 con One UI. Ambos ofrecen un rendimiento elevado, pero el iPhone tiene ventajas en términos de tamaño de semiconductores y optimización del sistema operativo.
+                            </p>
+                            <p>La duración de la batería es notable en ambos dispositivos, con el iPhone 15 Pro Max ofreciendo hasta 28 horas de uso mixto y el Galaxy S23 hasta 24 horas. La gestión energética y las opciones de carga varían, siendo el iPhone más eficiente en carga inalámbrica inversa.
+
+                                En el aspecto de la cámara, el iPhone presenta una configuración de tres sensores con un zoom óptico de 5x y características como HDR Dolby Vision. El Galaxy S23 cuenta con una cámara de cuatro sensores, incluyendo un gran angular de 200 MP y zoom óptico de 10x. Ambos ofrecen calidad y versatilidad, pero el iPhone destaca con el sensor LiDAR y el HDR Dolby Vision.
+                            </p>
+                            <p>En resumen, ambas opciones ofrecen características excepcionales, pero el iPhone 15 Pro Max destaca por su resistencia al agua, el Dynamic Island, la eficiencia energética y algunas características de la cámara. El Galaxy S23 sobresale con su pantalla sin interrupciones y una mayor capacidad de batería. La elección dependerá de las preferencias individuales del usuario.
+                            </p>
+                        </div>
+                    </article>
+
+                    <!-- post footer -->                   
+                        <div class="post-author text-center">
+                            <div class="author-avatar">
+                                <img src="./assets/gallery/profile1.jpg" class="rounded" alt="" style="box-shadow: 0 4px 8px rgba(0,0,0,0.3) !important; ">
+                            </div>
+
+                            <div class="author-info py-2">
+                                <h3 class="text-dark">Rafael Valerio</h3>
+
+                                <p class="text-secondary secondary-title">
+                                    Estudiante de Desarrollo de Aplicaciones Web
+                                </p>
+
+                                <div class="post-tags d-flex flex-wrap justify-content-center">
+                                    <a href="https://es-es.facebook.com" class="nav-link"><i class="fab fa-facebook-f"></i></a>
+                                    <a href="https://twitter.com/SmartupdatesD/with_replies" class="nav-link"><i class="fab fa-twitter"></i></a>
+                                    <a href="https://www.instagram.com/smartupdatesd/" class="nav-link"><i class="fab fa-instagram"></i></a>
+                                </div>
+                            </div>
+
+                        </div>
+                        <hr><br>
+                    <section id="parte-dos">
+                    <div> <a href="./categorias.html" class="nav-link" >Top Aplicaciones</a> 
+                    </div>
+
+                    <div class="title">
+                        <h2 class="text-title text-dark display-1">Las Mejores Aplicaciones Móviles</h2> 
+                        <h2 class="text-title text-dark display-1"> Para Desarrolladores en iOS y Android</h2>
+                    </div>
+
+                <div>
+                    <div class="meta">
+                        <a href="./about-us.html" class="link display-2 text-secondary px-1">
+                            <i class="fas fa-user text-primary"></i> Gabriel Leon
+                        </a>
+                        <a href="#" class="link display-2 text-secondary px-1">
+                            <i class="fas fa-clock text-primary"></i>  Clock Wed 02, 2024
+                        </a>
+                        <a href="#" class="link display-2 text-secondary px-1">
+                            <i class="fas fa-comments text-primary"></i> 3
+                        </a>
+                    </div>
+
+                </div>
+
+            <article>
+                <!-- thumbnail  -->
+                <div class="thumbnail mt-3">
+                    <img src="./assets/img1.jpg" class="thumbnail" alt="" style="border-radius: 10px !important; box-shadow: 0 4px 8px rgba(0,0,0,0.3) !important; ">
+                </div>
+
+                <!-- content -->
+                <div class="content text-dark display-2 secondary-title mt-3">
+                    <p>En la era digital, los desarrolladores de software se encuentran constantemente en la búsqueda de herramientas eficientes y aplicaciones que impulsen su productividad y creatividad. Tanto para dispositivos iOS como Android, existen numerosas aplicaciones diseñadas específicamente para satisfacer las necesidades de los profesionales del desarrollo. A continuación, presentamos una selección de las mejores aplicaciones móviles que todo desarrollador debería considerar tener en su arsenal.</p>
+
+                    <p>Para Desarrollo de Código:
+                    </p>
+                    <p>GitHub (iOS y Android): Esencial para cualquier desarrollador, la aplicación móvil de GitHub permite revisar y colaborar en proyectos, así como realizar seguimientos y actualizaciones en tiempo real. La funcionalidad de revisión de código es particularmente útil para mantenerse conectado con los proyectos en cualquier lugar.</p>
+                        
+                    <p>Visual Studio Code (iOS y Android): La versión móvil de este popular editor de código proporciona una experiencia de desarrollo similar a la de su contraparte de escritorio. Permite editar y depurar código en una interfaz intuitiva, ideal para realizar ajustes rápidos o revisar líneas de código sobre la marcha.</p>
+                    <p>Para Diseño y Prototipado:</p>
+
+                    <p>Adobe XD (iOS y Android): Diseñadores y desarrolladores pueden colaborar eficientemente utilizando Adobe XD para crear prototipos interactivos y experiencias de usuario. La aplicación móvil facilita la visualización y revisión de proyectos en cualquier momento y lugar.</p>
+
+                    <p>Sketch (iOS): Aunque principalmente asociado con macOS, Sketch ofrece una aplicación iOS que permite revisar diseños y realizar cambios rápidos. Es especialmente útil para mantenerse actualizado con las iteraciones del diseño mientras estás fuera de la oficina.
+                    </p>
+                    <p>Para Aprendizaje Continuo:</p>
+
+                    <p>SoloLearn (iOS y Android): Perfecta para desarrolladores que desean mejorar sus habilidades o aprender nuevos lenguajes de programación. SoloLearn ofrece lecciones interactivas y desafíos para una variedad de lenguajes, todo desde la comodidad de tu dispositivo móvil.</p>
+                        
+                    <p>Udacity (iOS y Android): Esta plataforma proporciona cursos interactivos en una variedad de temas, desde desarrollo web hasta inteligencia artificial. La aplicación móvil te permite acceder a contenido educativo de alta calidad en cualquier momento.</p>
+                        
+                    <p>Para Gestión de Proyectos y Colaboración:</p>
+                        
+                    <p>Trello (iOS y Android): Trello simplifica la gestión de proyectos con tarjetas y listas. La aplicación móvil facilita la colaboración y la actualización de tareas mientras estás en movimiento.</p>
+                    <p>Slack (iOS y Android): La comunicación efectiva es clave en cualquier equipo de desarrollo. Slack ofrece una aplicación móvil que permite a los desarrolladores mantenerse conectados, participar en discusiones y recibir notificaciones importantes en tiempo real.
+                        
+                    </p>
+                </div>
+            </article><br><br>
+
+            <!-- post footer -->
+                <div class="post-author text-center">
+                    <div class="author-avatar">
+                        <img src="./assets/gallery/avatar.png" class="rounded" alt="" style="box-shadow: 0 4px 8px rgba(0,0,0,0.3) !important; ">
+                    </div>
+
+                    <div class="author-info py-2">
+                        <h3 class="text-dark">Gabriel Leon</h3>
+
+                        <p class="text-secondary secondary-title">
+                            Estudiante de desarrollo  de Aplicaciones Web
+                        </p>
+
+                        <div class="post-tags d-flex flex-wrap justify-content-center">
+                            <a href="https://es-es.facebook.com" class="nav-link.custom"><i class="fab fa-facebook-f"></i></a>
+                            <a href="https://twitter.com/SmartupdatesD/with_replies" class="nav-link.custom"><i class="fab fa-twitter"></i></a>
+                            <a href="https://www.instagram.com/smartupdatesd/" class="nav-link.custom"><i class="fab fa-instagram"></i></a>
+                        </div>
+                    </div>
+                </div>
+                    </section>
+
+                        <div class="post-comments py-2">
+                            <h3 class="text-center display-1 secondary-title py-2">3 Comments</h3>
+    
+                            <div class="comment-details">
+                                <div class="comment-item py-2">
+                                    <div class="d-flex">
+                                        <div class="avatar px-2">
+                                            <img src="./assets/face/face1.jpg" class="rounded" alt="" style="box-shadow: 0 4px 8px rgba(0,0,0,0.3) !important; ">
+                                        </div>
+                                        <div class="comment-content">
+                                            <h5 class="display-2 m-0">Paola Fontana</h5>
+                                            <p class="title-secondary text-dark">
+                                             <strong>SmartUpdates</strong> es mi fuente preferida para mantenerme al día con las últimas innovaciones en smartphones. Su contenido informativo y bien estructurado me mantiene informado sobre las últimas tendencias tecnológicas.
+                                            </p>
+                                        </div>
+                                    </div>
+                                     <!-- comment reply -->
+                                     <div class="reply py-2">
+                                        <div class="d-flex">
+                                            <div class="avatar px-2">
+                                                <img src="./assets/face/face2.jpg" class="rounded" alt="" style="box-shadow: 0 4px 8px rgba(0,0,0,0.3) !important; ">
+                                            </div>
+                                            <div class="comment-content">
+                                                <h5 class="display-2 m-0">Brandon Kelley</h5>
+                                                <p class="title-secondary text-dark">
+                                                    <strong>¡Increíble sitio web!</strong> SmartUpdates siempre presenta las novedades más emocionantes en el mundo de los smartphones. Me encanta la forma en que desglosan las innovaciones y proporcionan información valiosa para los entusiastas de la tecnología.
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+    
+                                </div>
+                                <div class="comment-item py-2">
+                                    <div class="d-flex">
+                                        <div class="avatar px-2">
+                                            <img src="./assets/face/face3.jpg" class="rounded" alt="" style="box-shadow: 0 4px 8px rgba(0,0,0,0.3) !important; ">
+                                        </div>
+                                        <div class="comment-content">
+                                            <h5 class="display-2 m-0">Sara Ferragni</h5>
+                                            <p class="title-secondary text-dark">
+                                                <strong>SmartUpdates</strong> ha elevado mi experiencia de seguimiento de smartphones a otro nivel. La variedad de contenido y la rapidez con la que actualizan la información hacen que sea fácil y emocionante estar al tanto de las últimas innovaciones en la industria de los smartphones.
+                                            </p>
+    
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+    
+                            <h3 class="text-center display-1 secondary-title py-2">Leave Comment</h3>
+    
+                            <div class="comment-form">
+                                <div class="d-flex justify-content-between flex-wrap">
+                                    <input type="text" class="form-control " placeholder="Name">
+                                    <input type="email" class="form-control" placeholder="Email">
+                                    <input type="text" class="form-control" placeholder="Website">
+                                </div>
+                                <textarea class="form-control mt-3" placeholder="Message" rows="10"></textarea>
+                                    <div class="tip">
+                                        <div class="hint">
+                                            <h5>Send Your Message!</h5> 
+                                        </div>
+                                      <div class="text-center">
+                                        <a href="#"><button type="submit" class="btn btn-primary display-2 text-light mt-2">Submit</button></a>
+                                      </div>
+                                   </div>
+                               </div>
+                         </div>
+                    <!-- </div> -->
+                    <!-- .post footer -->
+
+                </section>
+
+            <!-- Titulo font -->
+            <section class="text-center">
+             <div class="container">
+                <div class="hero2">
+                    <h1>SMARTUPDATES</h1>
+                </div>
+             </div>
+            </section>
+            <!-- .Titulo font -->
+
+       </main>
+    <!-- .Main Site -->
+
+    <!-- footer -->
+       <footer id="footer">
+           <div class="container">
+               <div class="row mb-3">
+                   <div class="col-3">
+                       <h2 class="footer-title secondary-title">About Us</h2>
+
+                       <div class="secondary-title text-secondary">
+                            <p class="mt-2 ">
+                                Somos SmartUpdates, un equipo apasionado por la tecnología. Proporcionamos las últimas noticias y análisis de los mejores smartphones. Nuestro objetivo es ayudarte a estar al día con las innovaciones en el mundo de los smartphones. Valoramos la interacción con nuestros lectores y nos esforzamos por mejorar nuestro contenido basándonos en tus necesidades. ¡Gracias por visitarnos!
+                            </p>
+                            
+                            <address>
+                                <i class="fas fa-map-marker-alt text-primary"></i> 
+                                Av. de Francesc Cambó, 12, Ciutat Vella, Barcelona, 08003 ES
+                            </address>
+
+                            <div class="phone">
+                                <i class="fas fa-mobile text-primary"></i> 
+                                125-896-485
+                            </div>
+
+                            <div class="email">
+                                <i class="fas fa-envelope text-primary"></i> 
+                                SmartUpdates@gmail.com
+                            </div>
+
+                       </div>
+                   </div>
+                   <div class="col-3">
+                       <h2 class="footer-title secondary-title">Feature Post</h2>
+
+                       <div class="feature-post">
+                           <div class="flex-item">
+                               <article class="article">
+                                   <div class="d-flex">
+                                       <a href="#">
+                                           <img src="./assets/img1.jpg" class="object-fit px-1" alt="" style="box-shadow: 0 4px 8px rgba(0,0,0,0.3) !important; ">
+                                           <div class="px-1">
+                                               <a href="#" class="text-title display-2 text-dark">
+                                                Las Mejores Aplicaciones
+                                               </a>
+                                               <p class="secondary-title text-secondary display-3">
+                                                    <span><i class="far fa-clock text-primary"></i> Clock Wed 02, 2024 </span>
+                                               </p>
+                                           </div>
+                                       </a>
+                                   </div>
+                               </article>
+                           </div>
+                           <div class="flex-item">
+                            <article class="article">
+                                <div class="d-flex">
+                                    <a href="#">
+                                        <img src="./assets/gallery/img13.jpg" class="object-fit px-1" alt="" style="box-shadow: 0 4px 8px rgba(0,0,0,0.3) !important; ">
+                                        <div class="px-1">
+                                            <a href="#" class="text-title display-2 text-dark">
+                                             Meet The Team
+                                            </a>
+                                            <p class="secondary-title text-secondary display-3">
+                                                 <span><i class="far fa-clock text-primary"></i> Clock Wed 02, 2024 </span>
+                                            </p>
+                                        </div>
+                                    </a>
+                                </div>
+                            </article>
+                             </div>
+                             
+                       </div>
+                   </div>
+                   <div class="col-3">
+                        <h2 class="footer-title secondary-title">Tags</h2>
+
+                        <div class="tags">
+                            <div class="d-flex flex-wrap">
+                                <a href="./article.html#post" class="nav-link btn bg-light">Versus</a>
+                                <a href="./article.html#parte-dos" class="nav-link btn bg-light">Top Aplicaciones</a>
+                                <a href="./about-us.html" class="nav-link btn bg-light">About</a>
+                                <a href="./recomendaciones.html" class="nav-link btn bg-light">Recomendaciones</a>
+                            </div>
+                        </div>
+
+                        <h2 class="footer-title secondary-title mt-2">Social</h2>
+
+                        <div class="tags social">
+                            <div class="d-flex flex-wrap">
+                                <a href="https://es-es.facebook.com" class="nav-link btn bg-light"><i class="fab fa-facebook-f"></i></a>
+                                <a href="https://twitter.com/SmartupdatesD/with_replies" class="nav-link btn bg-light"><i class="fab fa-twitter"></i></a>
+                                <a href="https://www.instagram.com/smartupdatesd/" class="nav-link btn bg-light"><i class="fab fa-instagram"></i></a>
+                            </div>
+                        </div>
+
+                   </div>
+               </div>
+
+               <!-- copyrights  -->
+               <div class="copyrights">
+                   <p class="text-center text-secondary display-2">
+                        © 2024 <a href="#" class="text-primary">SmartUpdates</a> - Personal Blog Theme. All rights reserved.
+                   </p>
+               </div>
+           </div>
+       </footer>
+    <!-- .footer -->
+
+    <!-- script mensaje de bienvenida -->
+    <script>
+        function mostrarBienvenida(elemento) {
+            elemento.innerText = "Tu web de confianza=)";
+            elemento.style.color = "#4158D0";
+        }
+
+        function restaurarTexto(elemento) {
+            elemento.innerText = "SmartUpdates";
+            elemento.style.color = "";
+        }
+    </script>
+    <!-- masonry libray for horizontal grid -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/masonry/4.2.2/masonry.pkgd.min.js" integrity="sha512-JRlcvSZAXT8+5SQQAvklXGJuxXTouyq8oIMaYERZQasB8SBDHZaUbeASsJWpk0UUrf89DP3/aefPPrlMR1h1yQ==" crossorigin="anonymous"></script>
+
+    <!-- swiper slider cdn -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/6.4.5/swiper-bundle.min.js" integrity="sha512-1LlEYE0qExJ/GUfAJ0k2K2fB5sIvMv/q6ueo3syohvQ3ElWDQVSMUOf39cxaDWHtNu7M6lF6ZC1H6A1m3SvheA==" crossorigin="anonymous"></script>
+
+    <!-- custom javascript main.js file -->
+    <script src="main.js"></script>
+</body>
+</html>

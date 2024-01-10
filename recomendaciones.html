@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SmartUpdates</title>
+
+    <!-- font awesome icons cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w==" crossorigin="anonymous" />
+
+    <!-- swiper slider css file -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/6.4.5/swiper-bundle.min.css" integrity="sha512-m3pAvNriL711NMlhkZHK6K4Tu2/RjtrzyjxZU8mlAbxxoDoURy27KajN1LGTLeEEPvaN12mKAgSCrYEwF9y0jA==" crossorigin="anonymous" />
+
+    <!-- custom style.css file -->
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    
+    <!-- Header -->
+    <header id="header" class="shadow bg-light">
+        <nav class="container navbar">
+            <a href="#" class="nav-brand text-dark" onmouseover="mostrarBienvenida(this)" onmouseout="restaurarTexto(this)">
+                SmartUpdates
+            </a>
+
+                <!-- toggle button -->
+                <button class="toggle-button">
+                    <span><i class="fas fa-bars"></i></span>
+                </button>
+
+                <!-- collapse on toggle button click -->
+                <div class="collapse">
+                    <ul class="navbar-nav">
+                        <a href="./index.html" class="nav-link">Home</a>
+                        <a href="./categorias.html" class="nav-link">Categories</a>
+                        <a href="./article.html" class="nav-link">Articles</a>
+                        <a href="./recomendaciones.html" class="nav-link">Recommendations</a>
+                        <a href="./about-us.html" class="nav-link">About</a>
+                    </ul>
+                </div>
+           </nav>
+       </header>
+    <!-- .Header -->
+
+    <section class="container">
+        <article id="post2">
+            <!-- article heading -->
+            <div class="headings text-center">
+                <div class="title">
+                    <h2 class="text-title text-dark display-1">Sitios webs de Tech News</h2>
+                </div>
+            </div><br>
+            <div class="title">
+                <h2 class="text-title text-dark display-1">1. Pulso Social: «Descubre y aprende todo de tecnología»</h2>
+            </div>
+
+            <!-- thumbnail  -->
+            <div class="thumbnail mt-3">
+                <a href="http://pulsosocial.com/" target="_blank">
+                    <img src="./assets/gallery/pulso-social.webp" class="thumbnail" alt="" style="border-radius: 10px !important; box-shadow: 0 4px 8px rgba(0,0,0,0.3) !important; ">
+                </a>
+            </div>
+
+            <!-- content -->
+            <div class="content text-dark display-2 secondary-title mt-3">
+                <p>
+                    La web reporta sobre lo último en emprendimiento, tecnología y social media. Destaca la innovación y desarrollos de emprendedores hispanos y latinoamericanos.
+                </p>
+                <p>
+                    El medio imprescindible para conocer las nuevas propuestas y oportunidades de inversión en la naciente industria tecnológica de la región. Sin lugar a dudas, te enseñará como aprovechar las últimas tendencias de internet.
+                </p>
+                <p>
+                    Pulso Social te mantiene informado sobre las rondas de inversión que levantan las startups más prometedoras de la región. Son empresas que están en plena etapa de crecimiento. Y, como sabes, las startups contratan muchos freelancers, por lo tanto una buena idea es presentarte ante ellas mandándoles un mail e invitándolas a que te contraten a través de Workana para agilizar trámites y facilitarles los pagos.
+                </p>
+            </div>
+            <br>
+            <div class="title">
+                <h2 class="text-title text-dark display-1">2. INFO TECHNOLOGY: «Conocimiento tecnológico a tu alcance»</h2>
+            </div>
+
+            <!-- thumbnail  -->
+            <div class="thumbnail mt-3">
+                <a href="http://infotechnology.com/" target="_blank">
+                    <img src="./assets/gallery/infotechology.webp" class="thumbnail" alt="" style="border-radius: 10px !important; box-shadow: 0 4px 8px rgba(0,0,0,0.3) !important; ">
+                </a>
+            </div>
+
+            <!-- content -->
+            <div class="content text-dark display-2 secondary-title mt-3">
+                <p>
+                    Este sitio web es un poco más especializado y dirigido a profesionales que ya tienen un cierto nivel de conocimiento sobre el mercado de tecnología. Pasando por hardware, software, red, consultoría y novedades del sector.
+                </p>
+                <p>
+                    La web ofrece diversos tutoriales y consejos para quienes trabajan en el área. Además, está dividido por áreas de interés y temas que están en alza en el área de IT y tecnología, para facilitarle la búsqueda. Realmente es un sitio que te ayudará a comprender las posibilidades que el mundo digital ofrece a profesionales, freelancers y emprendedores de todas las áreas.
+                </p>
+                <p>
+                    Como puedes ver en la imagen de aquí arriba, este portal apuesta muy fuerte por las noticias de Fintechs, empresas de finanzas y tecnología, una de las categorías de startups que más está creciendo en lo que funding se refiere..
+                </p>
+            </div>
+            <br>
+            <div class="title">
+                <h2 class="text-title text-dark display-1">3. Hipertextual: «Tecnología, ciencia y cultura digital«</h2>
+            </div>
+
+            <!-- thumbnail  -->
+            <div class="thumbnail mt-3">
+                <a href="https://hipertextual.com/" target="_blank">
+                    <img src="./assets/gallery/hipertextual.webp" class="thumbnail" alt="" style="border-radius: 10px !important; box-shadow: 0 4px 8px rgba(0,0,0,0.3) !important; ">
+                </a>
+            </div>
+
+            <!-- content -->
+            <div class="content text-dark display-2 secondary-title mt-3">
+                <p>
+                    Todo lo que es nuevo o todavía no fue lanzado es divulgado primero en ese portal. Además de noticias relacionadas a la tecnología, Hipertextual también ofrece contenido de los más variados temas, como pueden ser películas, arte o videojuegos, por ejemplo.
+                </p>
+                <p>
+                    Algo interesante sobre Hipertextual es que habla de muchos temas y todos son interesantes. En este portal podrás encontrar temas variados como: redes sociales, juegos, realidad virtual, computación gráfica, tecnologías móviles y muchas otras vertientes del mercado tecnológico y digital.
+                </p>
+                <p>
+                    Hipertextual es una web que puede serte de gran ayuda para mantenerte siempre informado sobre las últimas tendencias del mercado… y también sobre temas de interés general, pero enfocados desde la innovación.
+                </p>
+            </div>
+        </article>
+    </section>
+
+    <!-- footer -->
+       <footer id="footer">
+           <div class="container">
+               <div class="row mb-3">
+                   <div class="col-3">
+                       <h2 class="footer-title secondary-title">About Us</h2>
+
+                       <div class="secondary-title text-secondary">
+                            <p class="mt-2 ">
+                                Somos SmartUpdates, un equipo apasionado por la tecnología. Proporcionamos las últimas noticias y análisis de los mejores smartphones. Nuestro objetivo es ayudarte a estar al día con las innovaciones en el mundo de los smartphones. Valoramos la interacción con nuestros lectores y nos esforzamos por mejorar nuestro contenido basándonos en tus necesidades. ¡Gracias por visitarnos!
+                            </p>
+                            
+                            <address>
+                                <i class="fas fa-map-marker-alt text-primary"></i> 
+                                Av. de Francesc Cambó, 12, Ciutat Vella, Barcelona, 08003 ES
+                            </address>
+
+                            <div class="phone">
+                                <i class="fas fa-mobile text-primary"></i> 
+                                125-896-485
+                            </div>
+
+                            <div class="email">
+                                <i class="fas fa-envelope text-primary"></i> 
+                                SmartUpdates@gmail.com
+                            </div>
+
+                       </div>
+                   </div>
+                   <div class="col-3">
+                       <h2 class="footer-title secondary-title">Feature Post</h2>
+
+                       <div class="feature-post">
+                           <div class="flex-item">
+                               <article class="article">
+                                   <div class="d-flex">
+                                       <a href="#">
+                                           <img src="./assets/gallery/img8.jpg" class="object-fit px-1" alt="" style="box-shadow: 0 4px 8px rgba(0,0,0,0.3) !important; ">
+                                           <div class="px-1">
+                                               <a href="#" class="text-title display-2 text-dark">
+                                                iPhone 15 Pro Max vs Samsung Galaxy S23
+                                               </a>
+                                               <p class="secondary-title text-secondary display-3">
+                                                    <span><i class="far fa-clock text-primary"></i> Clock Wed 02, 2024 </span>
+                                               </p>
+                                           </div>
+                                       </a>
+                                   </div>
+                               </article>
+                           </div>
+                           <div class="flex-item">
+                            <article class="article">
+                                <div class="d-flex">
+                                    <a href="#">
+                                        <img src="./assets/img1.jpg" class="object-fit px-1" alt="" style="box-shadow: 0 4px 8px rgba(0,0,0,0.3) !important; ">
+                                        <div class="px-1">
+                                            <a href="#" class="text-title display-2 text-dark">
+                                             Top Aplicaciones 
+                                            </a>
+                                            <p class="secondary-title text-secondary display-3">
+                                                 <span><i class="far fa-clock text-primary"></i> Clock Wed 02, 2024 </span>
+                                            </p>
+                                        </div>
+                                    </a>
+                                </div>
+                            </article>
+                             </div>
+                             <div class="flex-item">
+                                <article class="article">
+                                    <div class="d-flex">
+                                        <a href="#">
+                                            <img src="./assets/gallery/img13.jpg" class="object-fit px-1" alt="" style="box-shadow: 0 4px 8px rgba(0,0,0,0.3) !important; ">
+                                            <div class="px-1">
+                                                <a href="#" class="text-title display-2 text-dark">
+                                                 Meet The Team
+                                                </a>
+                                                <p class="secondary-title text-secondary display-3">
+                                                     <span><i class="far fa-clock text-primary"></i> Clock Wed 02, 2024 </span>
+                                                </p>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </article>
+                            </div>
+                       </div>
+                   </div>
+                   <div class="col-3">
+                        <h2 class="footer-title secondary-title">Tags</h2>
+
+                        <div class="tags">
+                            <div class="d-flex flex-wrap">
+                                <a href="./article.html#post" class="nav-link btn bg-light">Versus</a>
+                                <a href="./article.html#parte-dos" class="nav-link btn bg-light">Top Aplicaciones</a>
+                                <a href="./about-us.html" class="nav-link btn bg-light">About</a>
+                                <a href="./recomendaciones.html" class="nav-link btn bg-light">Recomendaciones</a>
+                            </div>
+                        </div>
+
+                        <h2 class="footer-title secondary-title mt-2">Social</h2>
+
+                        <div class="tags social">
+                            <div class="d-flex flex-wrap">
+                                <a href="https://es-es.facebook.com" class="nav-link btn bg-light"><i class="fab fa-facebook-f"></i></a>
+                                <a href="https://twitter.com/SmartupdatesD/with_replies" class="nav-link btn bg-light"><i class="fab fa-twitter"></i></a>
+                                <a href="https://www.instagram.com/smartupdatesd/" class="nav-link btn bg-light"><i class="fab fa-instagram"></i></a>
+                            </div>
+                        </div>
+
+                   </div>
+               </div>
+
+               <!-- copyrights  -->
+               <div class="copyrights">
+                   <p class="text-center text-secondary display-2">
+                        © 2024 <a href="#" class="text-primary">SmartUpdates</a> - Personal Blog Theme. All rights reserved.
+                   </p>
+               </div>
+           </div>
+       </footer>
+    <!-- .footer -->
+
+    <!-- script mensaje de bienvenida -->
+    <script>
+        function mostrarBienvenida(elemento) {
+            elemento.innerText = "Tu web de confianza=)";
+            elemento.style.color = "#4158D0";
+        }
+
+        function restaurarTexto(elemento) {
+            elemento.innerText = "SmartUpdates";
+            elemento.style.color = "";
+        }
+    </script>
+    <!-- masonry libray for horizontal grid -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/masonry/4.2.2/masonry.pkgd.min.js" integrity="sha512-JRlcvSZAXT8+5SQQAvklXGJuxXTouyq8oIMaYERZQasB8SBDHZaUbeASsJWpk0UUrf89DP3/aefPPrlMR1h1yQ==" crossorigin="anonymous"></script>
+
+    <!-- swiper slider cdn -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/6.4.5/swiper-bundle.min.js" integrity="sha512-1LlEYE0qExJ/GUfAJ0k2K2fB5sIvMv/q6ueo3syohvQ3ElWDQVSMUOf39cxaDWHtNu7M6lF6ZC1H6A1m3SvheA==" crossorigin="anonymous"></script>
+
+    <!-- custom javascript main.js file -->
+    <script src="main.js"></script>
+</body>
+</html>
